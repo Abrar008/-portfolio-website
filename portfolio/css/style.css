@@ -1,0 +1,111 @@
+@import'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+
+
+
+header{
+    background-color:rgb(139, 163, 156);
+
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: auto;
+}
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+
+
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.left img{
+    width: 400px;
+    
+}
+.her.right{
+    color:var(--pure);
+}
+section{
+    padding: 6rem;
+}
+section.about .about-me-img{
+    height: 600px;
+}
+
+section.about h1{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight:400 ;
+}
+
+
+section.about h1 span{
+color: var(--primary);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400
+}
+section.about p{
+    margin-bottom: 2rem;
+}
+
+section.about .social{
+    display:flex;
+}
+section.about .social a{
+    background: var(--dark);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 01.6rem;
+}
+section.about .social a:hover{
+ background: var(--primary)
+}
+section.about .social a img{
+    width: 150%;
+    height: 150%;
+    padding: 0.8rem; 
+    border-radius: 40%;
+   
+    
+}   
